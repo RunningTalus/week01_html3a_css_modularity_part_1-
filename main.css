@@ -1,1 +1,49 @@
 /* ADD YOUR STYLES HERE */
+
+body{}
+
+.instructions-container{}
+
+.instruction-list{}
+
+.instruction-title{}
+
+.instruction-text{}
+
+p{
+	color: #49659A;
+}
+
+td{
+	font-family: Helvetica;
+	font-size: medium;
+	padding: 5px 40px;
+	padding-bottom: 10px;
+}
+
+tr{
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-color: #CFCFCF;
+	text-align: left;
+	font-size: medium;
+
+}
+
+tr:last-child{
+	border-bottom-style: none;
+}
+
+th{
+	font-family: Helvetica;
+	font-size: medium;
+	padding: 5px 40px;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-color: #CFCFCF;
+	text-align: left;
+}
+
+td.div{
+	font-size: larger;
+}
