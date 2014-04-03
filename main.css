@@ -1,27 +1,23 @@
 /* ADD YOUR STYLES HERE */
 
 body{}
-
 .instructions-container{}
-
 .instruction-list{}
-
 .instruction-title{}
-
 .instruction-text{}
 
-p{
-	color: #49659A;
+p {
+	color: #3C5F99;
 }
 
-td{
+td {
 	font-family: Helvetica;
 	font-size: medium;
 	padding: 5px 40px;
 	padding-bottom: 10px;
 }
 
-tr{
+tr {
 	border-bottom: solid;
 	border-bottom-width: thin;
 	border-color: #CFCFCF;
@@ -30,11 +26,11 @@ tr{
 
 }
 
-tr:last-child{
+tr:last-child {
 	border-bottom-style: none;
 }
 
-th{
+th {
 	font-family: Helvetica;
 	font-size: medium;
 	padding: 5px 40px;
@@ -44,11 +40,13 @@ th{
 	text-align: left;
 }
 
+/* 2. Stats */
+
 .stats {
 	max-width: ;
 }
 
-.stats td{
+.stats td {
 	border-top: solid;
 	border-top-width: thin;
 	border-bottom: solid;
@@ -57,12 +55,41 @@ th{
 	text-align: center;
 }
 
-.stats td div:first-child{
+.stats td div:first-child {
 	font-size: xx-large;
 	font-weight: bold;
 	color: #000000;
 }
 
-.stats td div:last-child{
+.stats td div:last-child {
 	color: #CFCFCF;
-	font-weight: lighter;
+	font-size: small;
+}
+
+/* 3. Bar Chart */
+
+.bar-chart {
+	width: 100%;
+	text-align: left;
+}
+
+.bar-chart th {
+	width: 40px;
+	border: none;
+}
+
+.bar-chart td div {
+	background-color: #779BDD;
+	line-height: 30px;
+	padding: 0px;
+}
+
+.bar-chart td {
+	padding: 2px;
+}
+
+.bar-chart tr {
+	border: none;
+	padding: 0px;
+}
+/* last td in bar chart has mystery padding??? Stepping away from this briefly and wanted to backup.*/
