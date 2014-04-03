@@ -70,22 +70,26 @@ th {
 
 .bar-chart {
 	width: 100%;
-	text-align: left;
+	/*text-align: left;*/
 }
 
 .bar-chart th {
-	width: 40px;
+	width: 100px;
+	padding: 2px;
 	border: none;
+	/*border removes underline*/
 }
 
 .bar-chart td div {
 	background-color: #779BDD;
-	line-height: 30px;
-	padding: 0px;
+	line-height: 25px;
 }
 
 .bar-chart td {
-	padding: 2px;
+	padding: 1px;
+	color: white;
+	text-indent: 2px;
+	font-size: small;
 }
 
 .bar-chart tr {
