@@ -96,4 +96,49 @@ th {
 	border: none;
 	padding: 0px;
 }
-/* last td in bar chart has mystery padding??? Stepping away from this briefly and wanted to backup.*/
+
+.instruction-answer-lightbox {
+
+}
+.outer-content-box {
+	position: relative;
+	background-color: #595959;
+	height: 600px;
+	width: 800px;
+	z-index: 0;
+	display: table;
+	vertical-align: center;
+}
+.inner-content-box {
+	position: absolute;
+	background-color: #FFFFFF;
+	height: 300px;
+	width: 400px;
+	z-index: 1;
+	border-radius: 10px;
+	text-align: left;
+	color: black;
+	font-family: Arial;
+	vertical-align: center;
+	margin: 10px;
+	border: 10px;
+	padding: 10px;
+}
+
+.inner-content-box p h2{
+	text
+}
+
+.close-button {
+	position: relative;
+	background-color: #D08187;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: center;
+	margin-top: -10px;
+}
+
+/* Basic structure for Lightbox created.  Continuing to refactor CSS design */
