@@ -112,33 +112,34 @@ th {
 .inner-content-box {
 	position: absolute;
 	background-color: #FFFFFF;
-	height: 300px;
+	height: 250px;
 	width: 400px;
 	z-index: 1;
 	border-radius: 10px;
 	text-align: left;
 	color: black;
 	font-family: Arial;
-	vertical-align: center;
-	margin: 10px;
-	border: 10px;
-	padding: 10px;
-}
+	
+	margin: 50px;
+	border: 50px;
+	padding: 50px;
 
-.inner-content-box p h2{
-	text
+	top: 90px;
+	left: 70px;
 }
 
 .close-button {
-	position: relative;
+	position: absolute;
 	background-color: #D08187;
-	height: 50px;
-	width: 150px;
+	height: 40px;
+	width: 120px;
 	border-radius: 10px;
 	color: #FFFFFF;
 	text-align: center;
-	vertical-align: center;
-	margin-top: -10px;
+	line-height: 40px;
+	
+	bottom: 10px;
+	right: 10px;
 }
 
 /* Basic structure for Lightbox created.  Continuing to refactor CSS design */
