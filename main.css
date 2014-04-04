@@ -142,4 +142,23 @@ th {
 	right: 10px;
 }
 
-/* Basic structure for Lightbox created.  Continuing to refactor CSS design */
+/* 4. LIGHTBOX CREATED - revisit section after learning about jQuery */
+
+/* BEGIN 5. MEDIA BLOCK */
+
+.instruction-answer-media p{
+	line-height: 18px;
+	padding-top: 3px;
+}
+
+.instruction-answer-media img:first-child {
+	float: left;
+	padding-right: 7px;
+}
+
+.instruction-answer-media h2 {
+	float: left;
+	padding-right: 7px;
+}
+
+/* Working on section "Does it work with a different html structure?" */
